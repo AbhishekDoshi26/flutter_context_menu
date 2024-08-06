@@ -50,6 +50,7 @@ class ContextMenu {
     double? maxWidth,
     Clip? clipBehavior,
     this.boxDecoration,
+    this.subMenuBoxDecoration,
     Map<ShortcutActivator, VoidCallback>? shortcuts,
   })  : padding = padding ?? const EdgeInsets.all(4.0),
         maxWidth = maxWidth ?? 350.0,
