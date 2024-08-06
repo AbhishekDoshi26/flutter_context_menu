@@ -34,6 +34,9 @@ class ContextMenu {
   /// The decoration of the context menu.
   BoxDecoration? boxDecoration;
 
+  /// The decoration of the context menu.
+  BoxDecoration? subMenuBoxDecoration;
+
   /// A map of shortcuts to be bound to the context menu and the nested context menus.
   ///
   /// Note: This overides the default shortcuts in [defaultMenuShortcuts] if any of the keys match.

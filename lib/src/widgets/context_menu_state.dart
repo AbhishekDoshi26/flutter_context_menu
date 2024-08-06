@@ -146,6 +146,7 @@ class ContextMenuState extends ChangeNotifier {
         menu: menu.copyWith(
           entries: items,
           position: submenuPosition,
+          boxDecoration: menu.subMenuBoxDecoration,
         ),
         spawnAlignmen: spawnAlignment,
         parentItemRect: submenuParentRect,
